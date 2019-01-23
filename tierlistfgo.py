@@ -57,5 +57,5 @@ Digite qualquer outra tecla pra sair.''')
         elif op == 5:
             webbrowser.open_new_tab(url + 'staple-quick-team/')
 except ValueError:
-    print("Invalid input.")
+    pass
 
